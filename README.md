@@ -37,6 +37,8 @@ This is the working command: sudo journalctl -p "warning" -b -o json-pretty
 
 ![part3_success](./images/part3_success.png)
 
+It is a long list so I'm not gonna include the whole image
+
 ## Part 4
 
 Script to get all regular users and print the output
