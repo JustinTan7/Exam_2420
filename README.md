@@ -25,7 +25,7 @@ All the parts I found in the journalctl man page
 
 ![boot](./images/part3_boot.png)
 
-![output](./images/part3_output.png.png)
+![output](./images/part3_output.png)
 
 ![json_pretty](./images/part3_json_pretty.png)
 
