@@ -72,7 +72,22 @@ Service file to that runs the previous script
 
 ![part5_success](./images/part5_success.png)
 
+## Part 6
 
+Timer file
+
+    [Unit]
+    Description=Timer to start the get_users service file 1 minute after booting and again everyday while the unit is active.
+
+    [Timer]
+    OnBootSec=1min
+    OnUnitActiveSec=24h
+    Unit=get_users.service
+
+    [Install]
+    WantedBy=timers.target
+
+![part6_success](./images/part6_success.png)
 
 
 
